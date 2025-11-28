@@ -5,18 +5,18 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Diner extends Recipes
+public class MainDish extends Recipes
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int spiceLevel;
+    private boolean isVegetarian;
 
     /**
      * Constructor for objects of class MainDish
      */
-    public Diner()
+    public MainDish()
     {
         // initialise instance variables
-        x = 0;
     }
 
     /**
@@ -25,9 +25,14 @@ public class Diner extends Recipes
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void listProtein()
     {
-        // put your code here
-        return x + y;
+        
     }
+    
+    public void listSpicy()
+    {
+        
+    }
+    
 }

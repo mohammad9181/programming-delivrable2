@@ -5,18 +5,19 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class soups extends Recipes
+public class Appatiser extends Recipes
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int flavorLevel;
+    private boolean isGlutenFree;
+    private boolean isVegetarian;
 
     /**
      * Constructor for objects of class appatisers
      */
-    public soups()
+    public Appatiser()
     {
         // initialise instance variables
-        x = 0;
     }
 
     /**
@@ -25,9 +26,8 @@ public class soups extends Recipes
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void listFlavor()
     {
-        // put your code here
-        return x + y;
+        
     }
 }

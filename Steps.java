@@ -1,21 +1,24 @@
+import java.util.ArrayList;
 
 /**
- * Write a description of class Dessert here.
+ * Write a description of class Steps here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Dessert extends Recipes
+public class Steps
 {
     // instance variables - replace the example below with your own
-    private int sweetnesslevel;
-
+    private int duration;
+    private ArrayList stepList;
+    
     /**
-     * Constructor for objects of class Dessert
+     * Constructor for objects of class Steps
      */
-    public Dessert()
+    public Steps()
     {
         // initialise instance variables
+        stepList = new ArrayList<String>();
         
     }
 
@@ -25,9 +28,19 @@ public class Dessert extends Recipes
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void listSugarBased()
+    public void addSteps()
     {
         // put your code here
+        
+    }
+    
+    public void removeSteps()
+    {
+        
+    }
+    
+    public void listAllSteps()
+    {
         
     }
 }

@@ -12,18 +12,34 @@ public class Recipes
 {
     private String name;
     
-    public HashSet ingredients;
+    private HashSet ingredientsList;
     
-    public ArrayList steps;
-
+    private ArrayList stepList;
     
     public Recipes()
     {
-        
+        ingredientsList = new HashSet<String>();
+        stepList = new ArrayList<String>();
+    }
+    
+    public void addSteps()
+    {
         
     }
     
-    addIngredients
+    public void removeSteps()
+    {
+        
+    }
     
+    public void addIngredients()
+    {
+        
+    }
+    
+    public void removeIngredient()
+    {
+        
+    }
     
 }
