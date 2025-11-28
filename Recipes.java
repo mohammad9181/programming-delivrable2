@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.HashSet;
 
 /**
  * Write a description of class Recipes here.
@@ -5,29 +8,22 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Recipes extends RecipeBook
+public class Recipes
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private String name;
+    
+    public HashSet ingredients;
+    
+    public ArrayList steps;
 
-    /**
-     * Constructor for objects of class Recipes
-     */
+    
     public Recipes()
     {
-        // initialise instance variables
-        x = 0;
+        
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
+    addIngredients
+    
+    
 }
