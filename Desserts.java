@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Dessert extends Recipes
+public class Desserts extends Recipes
 {
     // instance variables - replace the example below with your own
     private int sweetnesslevel;
@@ -13,7 +13,7 @@ public class Dessert extends Recipes
     /**
      * Constructor for objects of class Dessert
      */
-    public Dessert()
+    public Desserts()
     {
         // initialise instance variables
         

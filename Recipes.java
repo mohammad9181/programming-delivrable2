@@ -10,6 +10,12 @@ import java.util.HashSet;
  */
 public class Recipes
 {
+    private String title;
+    protected ArrayList<MainDish> mD = new ArrayList<>();
+    protected ArrayList<Appetizer> apps = new ArrayList<>();
+    protected ArrayList<Desserts> desserts = new ArrayList<>();
+    
+    
     private String name;
     
     private HashSet ingredientsList;
