@@ -13,7 +13,11 @@ public class Desserts extends Recipes
     /**
      * Constructor for objects of class Dessert
      */
+<<<<<<< Updated upstream:Desserts.java
     public Desserts()
+=======
+    public Dessert(int sweet)
+>>>>>>> Stashed changes:Dessert.java
     {
         // initialise instance variables
         
